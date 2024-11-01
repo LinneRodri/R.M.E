@@ -6,7 +6,7 @@
     font-family: 'Nunito', Arial, Helvetica, sans-serif;
 }
 body {
-    background-color: rgb(238, 238, 238);
+    background-color: rgba(67, 150, 0, 0.418);
     animation-name: FadeIn;
     animation-duration: 0.6s;
     animation-delay: 0.5s;
@@ -45,12 +45,12 @@ a {
     text-decoration: none;
 }
 .cabecalho {
-    background-image: linear-gradient(rgba(30, 31, 20, 0.267), rgba(49, 45, 2, 0.205)), url(../img/banner.webp);
+    background-image: linear-gradient(rgba(30, 31, 20, 0.267), rgba(49, 45, 2, 0.205)), url(../img/capa.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 @keyframes FadeIn {
     from {
@@ -63,10 +63,10 @@ a {
 .logo {
     margin-left: 10px;
     float: left;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .logo a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 35px;
 }
@@ -88,7 +88,7 @@ a {
     list-style: none;
 }
 .menu-desktop nav ul li a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     cursor: pointer;
     transition: 0.5s;
@@ -109,7 +109,7 @@ a {
 .menu-mobile ul {
     display: none;
     width: 100%;
-    background: white;
+    background: rgb(0, 0, 0);
     position: absolute;
     left: 0;
     top: 60px;
@@ -148,10 +148,10 @@ a {
     outline: none;
     cursor: pointer;
     padding: 9px 25px;
-    border: 1px solid rgb(185, 155, 69);
+    border: 1px solid rgb(0, 0, 0);
     background-color: transparent;
     font-size: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
     border-radius: 20px;
     margin-right: 10px;
 }
@@ -159,10 +159,10 @@ a {
     outline: none;
     cursor: pointer;
     padding: 9px 25px;
-    border: 1px solid rgb(185, 155, 69);
-    background-color: rgb(185, 155, 69);
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
     font-size: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
     border-radius: 20px;
     margin-right: 10px;
 }
@@ -180,7 +180,7 @@ a {
     animation-fill-mode: both;
 }
 .seta a {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 @keyframes SobeDesce {
     0%,100% {top: 10px;}
@@ -191,7 +191,7 @@ a {
     margin-bottom: 30px;
 }
 .experiencia>.container>h2>span {
-    color: rgb(194, 139, 64);
+    color: rgb(0, 0, 0);
     margin: 0 5px;
 }
 .experiencia-h2 {
@@ -211,7 +211,7 @@ a {
     margin-left: 20px;
 }
 .experiencia-col .icon {
-    color: rgb(194, 139, 64);
+    color: rgb(184, 148, 32);
     display: flex;
     justify-content: center;
     align-self: center;
@@ -243,7 +243,7 @@ div.titulo-projectos .line {
 }
 div.titulo-projectos h1 {
     position: relative;
-    background: rgb(238, 238, 238);
+    background: rgb(0, 0, 0);
     display: inline-block;
     text-align: center;
     padding: 0 20px;
@@ -454,7 +454,7 @@ section.noticias {
     height: 35px;
     letter-spacing: 1px;
     font-size: 20px;
-    color: white;
+    color: rgb(255, 255, 255);
     cursor: pointer;
     outline: none;
 }
@@ -467,11 +467,11 @@ section.noticias {
     text-transform: capitalize;
 }
 ::selection {
-    color: white;
-    background-color: rgb(194, 139, 64);
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
 }
 .titulo-contacto h1 {
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(255, 255, 255);
     display: inline-block;
     padding: 0 15px;
 }
@@ -492,7 +492,7 @@ section.noticias {
 .box-footer1 .box-single-footer1 {
     width: 33.3%;
     float: left;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 .box-footer1 .box-single-footer1 h2 {
     font-weight: normal;
@@ -521,7 +521,7 @@ section.noticias {
 .footer2 {
     padding: 10px;
     background-color: rgb(161, 113, 46);
-    color: white;
+    color: rgb(255, 255, 255);
 }
 .footer2 .container {
     display: flex;
@@ -707,11 +707,11 @@ section.noticias {
     transition: 1s;
 }
 .scrollup:hover {
-    background-color: rgb(194, 139, 64);
-    color: white;
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
 }
 .scrollup__icon {
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 24px;
     transition: 4s;
 }
